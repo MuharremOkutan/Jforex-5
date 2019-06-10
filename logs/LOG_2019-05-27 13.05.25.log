@@ -1,0 +1,199 @@
+2019-05-27 13:05:25.586 INFO  singlejartest.Main - Connecting...
+2019-05-27 13:05:26.302 INFO  com.dukascopy.api.impl.connect.AuthorizationClient - environment(jnlp.client.mode)=DEMO, platformInstanceId=null
+2019-05-27 13:05:26.329 INFO  com.dukascopy.api.impl.connect.AuthorizationClient - Auth step 1 request [4B7C1B7F692F29989E8B2B1101D9E79E474A5C63]
+2019-05-27 13:05:26.333 DEBUG com.dukascopy.api.impl.connect.AuthorizationClient - >> [https://login.dukascopy.com/authorization-1/demo/auth?munus=srp_api&passus=1&sermo=88952827-cb5d-4c9a-8ca7-8d8da82a6976&putent_genus=0&appello=4B7C1B7F692F29989E8B2B1101D9E79E474A5C63&srp_versio=1]
+2019-05-27 13:05:28.379 DEBUG com.dukascopy.api.impl.connect.AuthorizationClient - << [{"B":"36a5718eeec980e1dbbeecd73401feb673448393a95e7a56e17bb619be84765876fae029977ceaa833bce30807d07756c41c95928e9c551989fa33941ac342abdb1a219951de88f5d7b13f1faaa8229be824c26281f64d63f5077bce56a76571e13aa4c0fc905a12dbdbc168417a1f760686d2605ac3f6feee287f977679b2e0ef0494d61cfd3b73dd3b790813878ca9e40997750555509611f259bb60319b92dfcfa6e8492a51b685c0c62152a03b54481e956efa39d274b3d93ece1be1419f7173e197ce36f938589791f3b95bb28f0a5b0b40ffecde67d4b9d4255e2da8c5af1dbc0e82a7a2628de0cfae708c80ecee961161bacc62e489e2e2940ece3908","S":"2ff6d58792b606f1c37ba22a031a1568","G":"2","H":"SHA-256","K":"5b9e8ef059c6b32ea59fc1d322d37f04aa30bae5aa9003b8321e21ddb04e300","N":"ac6bdb41324a9a9bf166de5e1389582faf72b6651987ee07fc3192943db56050a37329cbb4a099ed8193e0757767a13dd52312ab4b03310dcd7f48a9da04fd50e8083969edb767b0cf6095179a163ab3661a05fbd5faaae82918a9962f0b93b855f97993ec975eeaa80d740adbf4ff747359d041d5c33ea71d281e446b14773bca97b43a23fb801676bd207a436c6481f1d2b9078717461a5b9d32e688f87748544523b524b0d57d5ea77a2775d2ecfa032cfbdbf52fb3786160279004e57ae6af874e7303ce53299ccc041c7bc308d82a5698f3a8d0c38271ae35f8e9dbfbb694b5c803d89f7ae435de236d525f54759b65e372fcd68ef20fa7111f9e4aff73","srp_versio":"1"}]
+2019-05-27 13:05:28.381 INFO  com.dukascopy.api.impl.connect.AuthorizationClient - Auth step 1 response [ServerResponseObject [passwordServerResponse=Step1ServerResponse [serverPublicValueB=36a5718eeec980e1dbbeecd73401feb673448393a95e7a56e17bb619be84765876fae029977ceaa833bce30807d07756c41c95928e9c551989fa33941ac342abdb1a219951de88f5d7b13f1faaa8229be824c26281f64d63f5077bce56a76571e13aa4c0fc905a12dbdbc168417a1f760686d2605ac3f6feee287f977679b2e0ef0494d61cfd3b73dd3b790813878ca9e40997750555509611f259bb60319b92dfcfa6e8492a51b685c0c62152a03b54481e956efa39d274b3d93ece1be1419f7173e197ce36f938589791f3b95bb28f0a5b0b40ffecde67d4b9d4255e2da8c5af1dbc0e82a7a2628de0cfae708c80ecee961161bacc62e489e2e2940ece3908, saltS=2ff6d58792b606f1c37ba22a031a1568, safePrimeN=ac6bdb41324a9a9bf166de5e1389582faf72b6651987ee07fc3192943db56050a37329cbb4a099ed8193e0757767a13dd52312ab4b03310dcd7f48a9da04fd50e8083969edb767b0cf6095179a163ab3661a05fbd5faaae82918a9962f0b93b855f97993ec975eeaa80d740adbf4ff747359d041d5c33ea71d281e446b14773bca97b43a23fb801676bd207a436c6481f1d2b9078717461a5b9d32e688f87748544523b524b0d57d5ea77a2775d2ecfa032cfbdbf52fb3786160279004e57ae6af874e7303ce53299ccc041c7bc308d82a5698f3a8d0c38271ae35f8e9dbfbb694b5c803d89f7ae435de236d525f54759b65e372fcd68ef20fa7111f9e4aff73, correspondingGeneratorG=2, hashAlgorithmH=SHA-256, srpProtocolVersion=1], ]]
+2019-05-27 13:05:28.431 INFO  com.dukascopy.api.impl.connect.AuthorizationClient - Auth step 2 request A [5047884445297367843055745536593998136201961832197218072079851398316939912355119632806638404443355242097121344836033661895636699691724606934963614505425494438959806072431521257576485958943830276376119961644800466021152340554373825333437284276661866785864900324591173337109371695262356121359375203126057467208090375763921306127825442064677410736539011367111754009183153627417559070695134571412382604209209252264130639972733369792567562054095185330164495859628231237858816935204951995051259494307346672226228193796872298787905489345415505238426559551720983810786138995318452412527490703713002187154658431995519916525152], M1 [25824941317007519310493642525191186205675442837699936872018433575438273433391]
+2019-05-27 13:05:28.431 DEBUG com.dukascopy.api.impl.connect.AuthorizationClient - >> [https://login.dukascopy.com/authorization-1/demo/auth?munus=srp_api&testimonium_nuntius=39186617bdea8aaa213e5d77ab8b2eb77ad15fc885b32bc834664e29d3a74f2f&passus=2&publicus_pendo=27fca893af2d36d2f2ab849dc2d35c33a1f2fdf381658f28551e5ce6af558885316490534a4c76eafd96d53478c206ca6550b455966cb4551656c0a78d0767fd9f57bd23c07c0149345faffc2bf00cd75cbd78a09e4de3ad978d76bf37bb952193685584da0f0900e8ebc0f7df8b293678bf3604aa03db89534db779bc21c9587e44c8127ea5464d8499f2f0b15109f1e3eec13f5f7ddffdf749d8f95cbb829d45edd8a31ca885929a4edd435bade1ac4ec3f9dac2160be282067eb7a9bdbd7f8658fb1f18b97aa77adf4a26ce1797410f364f9c6902a87fe39d0ba5cda9c681db33fa454938aa76d7ec8ef3b5e11dcdbcd90dd86f54da3a015a2e7fcb774660&sermo=88952827-cb5d-4c9a-8ca7-8d8da82a6976&putent_genus=0&srp_versio=1]
+2019-05-27 13:05:29.686 DEBUG com.dukascopy.api.impl.connect.AuthorizationClient - << [{"M2":"96765c0cc92baa14d9027f158033a821dbadb95cdcdd2fae6cf97544226e547f","srp_versio":"1"}]
+2019-05-27 13:05:29.687 INFO  com.dukascopy.api.impl.connect.AuthorizationClient - Auth step 2 response [ServerResponseObject [passwordServerResponse=Step2ServerResponse [serverEvidenceMessageM2=96765c0cc92baa14d9027f158033a821dbadb95cdcdd2fae6cf97544226e547f, srpProtocolVersion=1], ]]
+2019-05-27 13:05:29.688 INFO  com.dukascopy.api.impl.connect.AuthorizationClient - Auth step 3 request
+2019-05-27 13:05:29.688 DEBUG com.dukascopy.api.impl.connect.AuthorizationClient - >> [https://login.dukascopy.com/authorization-1/demo/auth?munus=srp_api&passus=3&sermo=88952827-cb5d-4c9a-8ca7-8d8da82a6976&versio=318.4.68&willPing=true&occasus_content_vulgate=0&putent_genus=0&occasus=true&platform=DDS3_JFOREXSDK&srp_versio=1]
+2019-05-27 13:05:32.674 DEBUG com.dukascopy.api.impl.connect.AuthorizationClient - << [{"occasus":"rO0ABXNyABRqYXZhLnV0aWwuUHJvcGVydGllczkS0HpwNj6YAgABTAAIZGVmYXVsdHN0ABZMamF2\r\nYS91dGlsL1Byb3BlcnRpZX...","authApiURLs":["d-ja-usa-e-96-4-a.dukascopy.com:10443","d-ja-gva-91-191.dukascopy.com:10443","d-ja-sgn-04-b.dukascopy.com:10443","d-ja-jpn-102-100-c.dukascopy.com:10443","d-ja-hk-110-05.dukascopy.ch:10443","d-ja-msk-10.dukascopy.com:10443","d-ja-hk-111-4.dukascopy.ch:10443"],"srp_versio":"1"}]
+2019-05-27 13:05:32.686 INFO  com.dukascopy.api.impl.connect.AuthorizationClient - Auth step 3 response [ServerResponseObject [passwordServerResponse=Step3ServerResponse [serverResponse={"occasus":"rO0ABXNyABRqYXZhLnV0aWwuUHJvcGVydGllczkS0HpwNj6YAgABTAAIZGVmYXVsdHN0ABZMamF2\r\nYS91dGlsL1Byb3BlcnRpZX...","authApiURLs":["d-ja-usa-e-96-4-a.dukascopy.com:10443","d-ja-gva-91-191.dukascopy.com:10443","d-ja-sgn-04-b.dukascopy.com:10443","d-ja-jpn-102-100-c.dukascopy.com:10443","d-ja-hk-110-05.dukascopy.ch:10443","d-ja-msk-10.dukascopy.com:10443","d-ja-hk-111-4.dukascopy.ch:10443"],"srp_versio":"1"}], responseHeaderFields={Transfer-Encoding=[chunked], null=[HTTP/1.1 200], idle-session-ttl=[900000], CF-RAY=[4dd57439fdfdd18b-HKG], Server=[cloudflare], Connection=[keep-alive], Client-Country=[HK], Pragma=[no-cache], Last-Modified=[Mon, 27 May 2019 05:05:29 GMT], Date=[Mon, 27 May 2019 05:05:30 GMT], Cache-Control=[no-cache, must-revalidate, no-store, max-age=0], Access-Control-Allow-Credentials=[true], Client-IP=[45.56.152.172], Vary=[Accept-Encoding], Set-Cookie=[__cfduid=d007b707471e9f330f08a14407258f1871558933528; expires=Tue, 26-May-20 05:05:28 GMT; path=/; domain=.dukascopy.com; HttpOnly], Expires=[Thu, 01 Jan 1970 00:00:00 GMT], Expect-CT=[max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"], Content-Type=[text/plain;charset=UTF-8]}]]
+2019-05-27 13:05:32.829 INFO  com.dukascopy.api.impl.connect.AuthorizationClient - Selecting the best server...
+2019-05-27 13:05:33.382 INFO  com.dukascopy.api.impl.connect.AuthorizationClient - The ping start time=2019-05-27 13:05:33:382
+2019-05-27 13:05:33.692 INFO  com.dukascopy.api.impl.connect.AuthorizationClient - The ping end time=2019-05-27 13:05:33:691, the ping processing time=[309]ms
+2019-05-27 13:05:33.692 DEBUG com.dukascopy.api.impl.connect.AuthorizationClient - Best api url [d-ja-hk-110-05.dukascopy.ch:10443] with time [34]
+2019-05-27 13:05:33.692 DEBUG com.dukascopy.api.impl.connect.TesterClientImpl - d-ja-hk-110-05.dukascopy.ch:10443@eb14a8b6c1f81d195a4d49a294ba99bb282afaec10044547e92c0e4959748b86
+2019-05-27 13:05:33.700 INFO  com.dukascopy.dds2.greed.util.FilePathManager - WL info is unavailable. Use default App folder for Platform data:  C:\Users\lofgr\AppData\Local\JForex
+2019-05-27 13:05:34.082 WARN  com.dukascopy.charts.data.datacache.FeedDataProvider - JStore is disabled for the current user
+2019-05-27 13:05:34.101 DEBUG com.dukascopy.api.impl.connect.TesterClientImpl - UserAgent: {"clientType":"DDS3_JFOREXSDK","javaVersion":"1.8.0_211","jvmVersion":"25.211-b12","ip":"null","clientVersion":"318.4.68","osName":"Windows 10","userName":"null"}
+2019-05-27 13:05:37.364 INFO  com.dukascopy.dds2.greed.connection.GreedClientAuthorizationProvider - !!!:Thread[(NettyTransportClient-0) ClientConnector,5,main]
+2019-05-27 13:05:37.366 INFO  com.dukascopy.dds4.transport.client.netty.ClientConnector - Authorize task in queue, server address [d-ja-hk-110-05.dukascopy.ch/13.75.115.155:10443], transport name [NettyTransportClient-0]
+2019-05-27 13:05:37.367 DEBUG com.dukascopy.api.impl.connect.TesterClientImpl - Authorized
+2019-05-27 13:05:37.375 INFO  com.dukascopy.api.instrument.subscribe.InstrumentManager - InstrumentManager created.
+2019-05-27 13:05:37.779 WARN  com.dukascopy.api.impl.connect.WLabelData - White Label Image is not received
+2019-05-27 13:05:37.779 INFO  singlejartest.Main - Connected
+2019-05-27 13:05:37.779 INFO  singlejartest.Main - Subscribing instruments...
+2019-05-27 13:05:37.781 INFO  singlejartest.Main - Downloading data
+2019-05-27 13:05:37.798 INFO  com.dukascopy.charts.data.datacache.metadata.FeedMetadataManager - Loading first times for [EUR/USD]...
+2019-05-27 13:05:37.832 INFO  com.dukascopy.charts.data.datacache.metadata.FeedMetadataManager - First times loaded {EUR/USD={Ticks=1052082000914, 1 Min=1052082000000, Hourly=1052082000000, Daily=99792000000}}
+2019-05-27 13:05:40.457 INFO  singlejartest.Main - Starting strategy
+2019-05-27 13:05:40.535 INFO  singlejartest.Main - Strategy started: 0
+2019-05-27 13:05:40.536 INFO  singlejartest.Main - Getting prices before start time
+2019-05-27 13:05:40.560 INFO  singlejartest.Main - Creating data loading threads
+2019-05-27 13:05:40.565 INFO  singlejartest.Main - Getting prices before start time
+2019-05-27 13:05:40.618 WARN  com.dukascopy.api.impl.connect.WLabelData - White Label Image is not received
+2019-05-27 13:05:40.645 INFO  singlejartest.Main - Filling in-progress candles
+2019-05-27 13:05:40.802 INFO  singlejartest.Main - Executing onStart
+2019-05-27 13:05:40.806 INFO  singlejartest.Main - Running
+2019-05-27 13:05:41.965 INFO  singlejartest.Main - Running, Fri 2019.05.24 00:30 Eq: 50,000.00 UoL: .00%
+2019-05-27 13:05:42.072 INFO  singlejartest.Main - Running, Fri 2019.05.24 01:00 Eq: 50,000.00 UoL: .00%
+2019-05-27 13:05:42.190 INFO  singlejartest.Main - Running, Fri 2019.05.24 01:30 Eq: 50,000.00 UoL: .00%
+2019-05-27 13:05:42.276 INFO  singlejartest.Main - Running, Fri 2019.05.24 02:00 Eq: 50,000.00 UoL: .00%
+2019-05-27 13:05:42.347 INFO  singlejartest.Main - Running, Fri 2019.05.24 02:30 Eq: 50,000.00 UoL: .00%
+2019-05-27 13:05:42.417 INFO  singlejartest.Main - Running, Fri 2019.05.24 03:00 Eq: 50,000.00 UoL: .00%
+2019-05-27 13:05:42.454 INFO  singlejartest.Main - Running, Fri 2019.05.24 03:30 Eq: 50,000.00 UoL: .00%
+2019-05-27 13:05:42.495 INFO  singlejartest.Main - Running, Fri 2019.05.24 04:00 Eq: 50,000.00 UoL: .00%
+2019-05-27 13:05:42.544 INFO  singlejartest.Main - Running, Fri 2019.05.24 04:30 Eq: 50,000.00 UoL: .00%
+2019-05-27 13:05:42.585 INFO  singlejartest.Main - Running, Fri 2019.05.24 05:00 Eq: 50,000.00 UoL: .00%
+2019-05-27 13:05:42.611 INFO  singlejartest.Main - Running, Fri 2019.05.24 05:30 Eq: 50,000.00 UoL: .00%
+2019-05-27 13:05:42.649 INFO  singlejartest.Main - Running, Fri 2019.05.24 06:00 Eq: 50,000.00 UoL: .00%
+2019-05-27 13:05:42.830 INFO  singlejartest.Main - Running, Fri 2019.05.24 06:30 Eq: 50,000.37 UoL: .02%
+2019-05-27 13:05:43.006 INFO  singlejartest.Main - Running, Fri 2019.05.24 07:00 Eq: 50,000.04 UoL: .02%
+2019-05-27 13:05:43.147 INFO  singlejartest.Main - Running, Fri 2019.05.24 07:30 Eq: 49,999.71 UoL: .02%
+2019-05-27 13:05:43.244 INFO  singlejartest.Main - Running, Fri 2019.05.24 08:00 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:43.343 INFO  singlejartest.Main - Running, Fri 2019.05.24 08:30 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:43.421 INFO  singlejartest.Main - Running, Fri 2019.05.24 09:00 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:43.527 INFO  singlejartest.Main - Running, Fri 2019.05.24 09:30 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:43.599 INFO  singlejartest.Main - Running, Fri 2019.05.24 10:00 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:43.683 INFO  singlejartest.Main - Running, Fri 2019.05.24 10:30 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:43.765 INFO  singlejartest.Main - Running, Fri 2019.05.24 11:00 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:43.826 INFO  singlejartest.Main - Running, Fri 2019.05.24 11:30 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:43.956 INFO  singlejartest.Main - Running, Fri 2019.05.24 12:00 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:44.084 INFO  singlejartest.Main - Running, Fri 2019.05.24 12:30 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:44.258 INFO  singlejartest.Main - Running, Fri 2019.05.24 13:00 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:44.354 INFO  singlejartest.Main - Running, Fri 2019.05.24 13:30 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:44.476 INFO  singlejartest.Main - Running, Fri 2019.05.24 14:00 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:44.570 INFO  singlejartest.Main - Running, Fri 2019.05.24 14:30 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:44.679 INFO  singlejartest.Main - Running, Fri 2019.05.24 15:00 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:44.780 INFO  singlejartest.Main - Running, Fri 2019.05.24 15:30 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:44.850 INFO  singlejartest.Main - Running, Sat 2019.05.24 16:00 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:44.901 INFO  singlejartest.Main - Running, Sat 2019.05.24 16:30 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:44.939 INFO  singlejartest.Main - Running, Sat 2019.05.24 17:00 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:44.991 INFO  singlejartest.Main - Running, Sat 2019.05.24 17:30 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.029 INFO  singlejartest.Main - Running, Sat 2019.05.24 18:00 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.061 INFO  singlejartest.Main - Running, Sat 2019.05.24 18:30 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.100 INFO  singlejartest.Main - Running, Sat 2019.05.24 19:00 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.130 INFO  singlejartest.Main - Running, Sat 2019.05.24 19:30 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.156 INFO  singlejartest.Main - Running, Sat 2019.05.24 20:00 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.190 INFO  singlejartest.Main - Running, Sat 2019.05.24 20:30 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.218 INFO  singlejartest.Main - Running, Sat 2019.05.24 21:00 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.221 INFO  singlejartest.Main - Running, Sat 2019.05.24 21:30 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.226 INFO  singlejartest.Main - Running, Sat 2019.05.24 22:00 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.230 INFO  singlejartest.Main - Running, Sat 2019.05.24 22:30 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.235 INFO  singlejartest.Main - Running, Sat 2019.05.24 23:00 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.239 INFO  singlejartest.Main - Running, Sat 2019.05.24 23:30 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.243 INFO  singlejartest.Main - Running, Sat 2019.05.25 00:00 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.247 INFO  singlejartest.Main - Running, Sat 2019.05.25 00:30 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.250 INFO  singlejartest.Main - Running, Sat 2019.05.25 01:00 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.253 INFO  singlejartest.Main - Running, Sat 2019.05.25 01:30 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.256 INFO  singlejartest.Main - Running, Sat 2019.05.25 02:00 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.259 INFO  singlejartest.Main - Running, Sat 2019.05.25 02:30 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.262 INFO  singlejartest.Main - Running, Sat 2019.05.25 03:00 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.265 INFO  singlejartest.Main - Running, Sat 2019.05.25 03:30 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.268 INFO  singlejartest.Main - Running, Sat 2019.05.25 04:00 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.271 INFO  singlejartest.Main - Running, Sat 2019.05.25 04:30 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.273 INFO  singlejartest.Main - Running, Sat 2019.05.25 05:00 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.276 INFO  singlejartest.Main - Running, Sat 2019.05.25 05:30 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.279 INFO  singlejartest.Main - Running, Sat 2019.05.25 06:00 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.281 INFO  singlejartest.Main - Running, Sat 2019.05.25 06:30 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.284 INFO  singlejartest.Main - Running, Sat 2019.05.25 07:00 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.287 INFO  singlejartest.Main - Running, Sat 2019.05.25 07:30 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.290 INFO  singlejartest.Main - Running, Sat 2019.05.25 08:00 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.293 INFO  singlejartest.Main - Running, Sat 2019.05.25 08:30 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.296 INFO  singlejartest.Main - Running, Sat 2019.05.25 09:00 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.299 INFO  singlejartest.Main - Running, Sat 2019.05.25 09:30 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.302 INFO  singlejartest.Main - Running, Sat 2019.05.25 10:00 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.304 INFO  singlejartest.Main - Running, Sat 2019.05.25 10:30 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.307 INFO  singlejartest.Main - Running, Sat 2019.05.25 11:00 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.310 INFO  singlejartest.Main - Running, Sat 2019.05.25 11:30 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.315 INFO  singlejartest.Main - Running, Sat 2019.05.25 12:00 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.318 INFO  singlejartest.Main - Running, Sat 2019.05.25 12:30 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.323 INFO  singlejartest.Main - Running, Sat 2019.05.25 13:00 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.328 INFO  singlejartest.Main - Running, Sat 2019.05.25 13:30 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.334 INFO  singlejartest.Main - Running, Sat 2019.05.25 14:00 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.339 INFO  singlejartest.Main - Running, Sat 2019.05.25 14:30 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.345 INFO  singlejartest.Main - Running, Sat 2019.05.25 15:00 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.350 INFO  singlejartest.Main - Running, Sat 2019.05.25 15:30 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.356 INFO  singlejartest.Main - Running, Sun 2019.05.25 16:00 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.361 INFO  singlejartest.Main - Running, Sun 2019.05.25 16:30 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.366 INFO  singlejartest.Main - Running, Sun 2019.05.25 17:00 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.371 INFO  singlejartest.Main - Running, Sun 2019.05.25 17:30 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.376 INFO  singlejartest.Main - Running, Sun 2019.05.25 18:00 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.380 INFO  singlejartest.Main - Running, Sun 2019.05.25 18:30 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.385 INFO  singlejartest.Main - Running, Sun 2019.05.25 19:00 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.390 INFO  singlejartest.Main - Running, Sun 2019.05.25 19:30 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.395 INFO  singlejartest.Main - Running, Sun 2019.05.25 20:00 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.400 INFO  singlejartest.Main - Running, Sun 2019.05.25 20:30 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.404 INFO  singlejartest.Main - Running, Sun 2019.05.25 21:00 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.409 INFO  singlejartest.Main - Running, Sun 2019.05.25 21:30 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.414 INFO  singlejartest.Main - Running, Sun 2019.05.25 22:00 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.418 INFO  singlejartest.Main - Running, Sun 2019.05.25 22:30 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.424 INFO  singlejartest.Main - Running, Sun 2019.05.25 23:00 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.427 INFO  singlejartest.Main - Running, Sun 2019.05.25 23:30 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.431 INFO  singlejartest.Main - Running, Sun 2019.05.26 00:00 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.433 INFO  singlejartest.Main - Running, Sun 2019.05.26 00:30 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.436 INFO  singlejartest.Main - Running, Sun 2019.05.26 01:00 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.439 INFO  singlejartest.Main - Running, Sun 2019.05.26 01:30 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.443 INFO  singlejartest.Main - Running, Sun 2019.05.26 02:00 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.446 INFO  singlejartest.Main - Running, Sun 2019.05.26 02:30 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.448 INFO  singlejartest.Main - Running, Sun 2019.05.26 03:00 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.451 INFO  singlejartest.Main - Running, Sun 2019.05.26 03:30 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.453 INFO  singlejartest.Main - Running, Sun 2019.05.26 04:00 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.456 INFO  singlejartest.Main - Running, Sun 2019.05.26 04:30 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.458 INFO  singlejartest.Main - Running, Sun 2019.05.26 05:00 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.461 INFO  singlejartest.Main - Running, Sun 2019.05.26 05:30 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.464 INFO  singlejartest.Main - Running, Sun 2019.05.26 06:00 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.466 INFO  singlejartest.Main - Running, Sun 2019.05.26 06:30 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.469 INFO  singlejartest.Main - Running, Sun 2019.05.26 07:00 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.472 INFO  singlejartest.Main - Running, Sun 2019.05.26 07:30 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.474 INFO  singlejartest.Main - Running, Sun 2019.05.26 08:00 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.477 INFO  singlejartest.Main - Running, Sun 2019.05.26 08:30 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.479 INFO  singlejartest.Main - Running, Sun 2019.05.26 09:00 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.482 INFO  singlejartest.Main - Running, Sun 2019.05.26 09:30 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.485 INFO  singlejartest.Main - Running, Sun 2019.05.26 10:00 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.488 INFO  singlejartest.Main - Running, Sun 2019.05.26 10:30 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.491 INFO  singlejartest.Main - Running, Sun 2019.05.26 11:00 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.494 INFO  singlejartest.Main - Running, Sun 2019.05.26 11:30 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.497 INFO  singlejartest.Main - Running, Sun 2019.05.26 12:00 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.500 INFO  singlejartest.Main - Running, Sun 2019.05.26 12:30 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.504 INFO  singlejartest.Main - Running, Sun 2019.05.26 13:00 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.507 INFO  singlejartest.Main - Running, Sun 2019.05.26 13:30 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.511 INFO  singlejartest.Main - Running, Sun 2019.05.26 14:00 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.514 INFO  singlejartest.Main - Running, Sun 2019.05.26 14:30 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.519 INFO  singlejartest.Main - Running, Sun 2019.05.26 15:00 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.523 INFO  singlejartest.Main - Running, Sun 2019.05.26 15:30 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.528 INFO  singlejartest.Main - Running, Mon 2019.05.26 16:00 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.531 INFO  singlejartest.Main - Running, Mon 2019.05.26 16:30 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.534 INFO  singlejartest.Main - Running, Mon 2019.05.26 17:00 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.536 INFO  singlejartest.Main - Running, Mon 2019.05.26 17:30 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.539 INFO  singlejartest.Main - Running, Mon 2019.05.26 18:00 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.543 INFO  singlejartest.Main - Running, Mon 2019.05.26 18:30 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.547 INFO  singlejartest.Main - Running, Mon 2019.05.26 19:00 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.551 INFO  singlejartest.Main - Running, Mon 2019.05.26 19:30 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.555 INFO  singlejartest.Main - Running, Mon 2019.05.26 20:00 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.559 INFO  singlejartest.Main - Running, Mon 2019.05.26 20:30 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.562 INFO  singlejartest.Main - Running, Mon 2019.05.26 21:00 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.567 INFO  singlejartest.Main - Running, Mon 2019.05.26 21:30 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.570 INFO  singlejartest.Main - Running, Mon 2019.05.26 22:00 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.574 INFO  singlejartest.Main - Running, Mon 2019.05.26 22:30 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.578 INFO  singlejartest.Main - Running, Mon 2019.05.26 23:00 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.581 INFO  singlejartest.Main - Running, Mon 2019.05.26 23:30 Eq: 49,998.95 UoL: .00%
+2019-05-27 13:05:45.585 INFO  singlejartest.Main - Executing onStop
+2019-05-27 13:05:45.598 INFO  singlejartest.Main - Strategy stopped: 0
+2019-05-27 13:05:45.598 ERROR singlejartest.Main - C:\report.html (Access is denied)
+java.io.FileNotFoundException: C:\report.html (Access is denied)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162)
+	at com.dukascopy.dds2.greed.agent.strategy.tester.start.TesterStrategies.createReport(TesterStrategies.java:235)
+	at com.dukascopy.api.impl.connect.TesterClientImpl.createReport(TesterClientImpl.java:1028)
+	at singlejartest.TesterMain$1.onStop(TesterMain.java:83)
+	at com.dukascopy.api.impl.connect.TesterClientImpl$4.onStop(TesterClientImpl.java:616)
+	at com.dukascopy.dds2.greed.agent.strategy.tester.start.TesterLoadingProgressListener.loadingFinished(TesterLoadingProgressListener.java:78)
+	at com.dukascopy.dds2.greed.agent.strategy.tester.StrategyTesterRunner.run(StrategyTesterRunner.java:426)
+	at java.lang.Thread.run(Thread.java:748)

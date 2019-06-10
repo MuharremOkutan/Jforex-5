@@ -1,0 +1,157 @@
+2019-05-24 17:08:50.827 INFO  jforex.tester.client.gui.TesterClientRunner - Connecting...
+2019-05-24 17:08:51.554 INFO  com.dukascopy.api.impl.connect.AuthorizationClient - environment(jnlp.client.mode)=DEMO, platformInstanceId=null
+2019-05-24 17:08:51.566 INFO  com.dukascopy.api.impl.connect.AuthorizationClient - Auth step 1 request [4B7C1B7F692F29989E8B2B1101D9E79E474A5C63]
+2019-05-24 17:08:51.568 DEBUG com.dukascopy.api.impl.connect.AuthorizationClient - >> [https://login.dukascopy.com/authorization-1/demo/auth?munus=srp_api&passus=1&sermo=00b0269a-0327-4fab-84e5-f7278a76541d&putent_genus=0&appello=4B7C1B7F692F29989E8B2B1101D9E79E474A5C63&srp_versio=1]
+2019-05-24 17:08:53.865 DEBUG com.dukascopy.api.impl.connect.AuthorizationClient - << [{"B":"44b43b136a0d83b6f139d7d0e36572378f8f1b50979b8ce26274e7127ab48005161e4ecdf0b9b49fa166b1283923fa5225b25e1bb90bd2a2002bc5221d8301bcae5373b9a3b5b501c0c34921bc38ae51557bb3b477292aedb30261adc01122b750587733ba3f84143a0c30b80435f75b85004a6d1686c43cf9143d49406f8e371d99687ff46f2fd41f9e705dc4e86875aab188fe6a7f16a205c2bf3c5edc21829d75cc38f8641b95edccb69278d2fc1736d706a41bc6866179962f42f5b660f1a385b7a57ff9b3c4764fa0f5663e5744350c6f4335a387e65ba4c8582d881a5bd2d1bfb22eac1e577d49da33aa3608a028071c0f312d08e2c8dab9dc35991ecd","S":"4c24016af0d2126a741398f0ccc41bb4","G":"2","H":"SHA-256","K":"5b9e8ef059c6b32ea59fc1d322d37f04aa30bae5aa9003b8321e21ddb04e300","N":"ac6bdb41324a9a9bf166de5e1389582faf72b6651987ee07fc3192943db56050a37329cbb4a099ed8193e0757767a13dd52312ab4b03310dcd7f48a9da04fd50e8083969edb767b0cf6095179a163ab3661a05fbd5faaae82918a9962f0b93b855f97993ec975eeaa80d740adbf4ff747359d041d5c33ea71d281e446b14773bca97b43a23fb801676bd207a436c6481f1d2b9078717461a5b9d32e688f87748544523b524b0d57d5ea77a2775d2ecfa032cfbdbf52fb3786160279004e57ae6af874e7303ce53299ccc041c7bc308d82a5698f3a8d0c38271ae35f8e9dbfbb694b5c803d89f7ae435de236d525f54759b65e372fcd68ef20fa7111f9e4aff73","srp_versio":"1"}]
+2019-05-24 17:08:53.866 INFO  com.dukascopy.api.impl.connect.AuthorizationClient - Auth step 1 response [ServerResponseObject [passwordServerResponse=Step1ServerResponse [serverPublicValueB=44b43b136a0d83b6f139d7d0e36572378f8f1b50979b8ce26274e7127ab48005161e4ecdf0b9b49fa166b1283923fa5225b25e1bb90bd2a2002bc5221d8301bcae5373b9a3b5b501c0c34921bc38ae51557bb3b477292aedb30261adc01122b750587733ba3f84143a0c30b80435f75b85004a6d1686c43cf9143d49406f8e371d99687ff46f2fd41f9e705dc4e86875aab188fe6a7f16a205c2bf3c5edc21829d75cc38f8641b95edccb69278d2fc1736d706a41bc6866179962f42f5b660f1a385b7a57ff9b3c4764fa0f5663e5744350c6f4335a387e65ba4c8582d881a5bd2d1bfb22eac1e577d49da33aa3608a028071c0f312d08e2c8dab9dc35991ecd, saltS=4c24016af0d2126a741398f0ccc41bb4, safePrimeN=ac6bdb41324a9a9bf166de5e1389582faf72b6651987ee07fc3192943db56050a37329cbb4a099ed8193e0757767a13dd52312ab4b03310dcd7f48a9da04fd50e8083969edb767b0cf6095179a163ab3661a05fbd5faaae82918a9962f0b93b855f97993ec975eeaa80d740adbf4ff747359d041d5c33ea71d281e446b14773bca97b43a23fb801676bd207a436c6481f1d2b9078717461a5b9d32e688f87748544523b524b0d57d5ea77a2775d2ecfa032cfbdbf52fb3786160279004e57ae6af874e7303ce53299ccc041c7bc308d82a5698f3a8d0c38271ae35f8e9dbfbb694b5c803d89f7ae435de236d525f54759b65e372fcd68ef20fa7111f9e4aff73, correspondingGeneratorG=2, hashAlgorithmH=SHA-256, srpProtocolVersion=1], ]]
+2019-05-24 17:08:53.919 INFO  com.dukascopy.api.impl.connect.AuthorizationClient - Auth step 2 request A [4619832001829099658693723567897653583528987580178902548266474604466971792974890670918501491975022369534980525111619717594618818785066414104262994132354687911536674757077246476967118237861398140147542531635650703494949205740997396927238009560369189356571813498182714706592238572742478167253735641234221652871790449102643748829869705945443958802162564285904266322708113501261579105441971590856579375350173245408813168920969205327538603336898778479367267217376603004881055477355438326901514737363343486528395179402977265881490677796069893218920244096026180853860676025795615367244941879735723237711361262901647103228491], M1 [50013233948191688443213070746841771060912192902689118979180831894319880036065]
+2019-05-24 17:08:53.919 DEBUG com.dukascopy.api.impl.connect.AuthorizationClient - >> [https://login.dukascopy.com/authorization-1/demo/auth?munus=srp_api&testimonium_nuntius=6e927cbdc39686896edfc0f5ecc774304753198b1bf36def7787e0d0214d5ee1&passus=2&publicus_pendo=24989b3d5c9586d68661eb932c9e3ce4a3c4048e6009839dfb2343d3cca5b05311987222948328690f6c74a219e1cc9e2079ebf69f24407725222865b54507ef661d7085a59b2877c21ce1b28f29c2141c2a5eae712854a5e90e0231337a6ef3f6172edcbc1870a9f8f897bdf2500ef6415408f77783554540ef106c84c97f987d69c84a9f9760306f52012cee01edf0c314612f4fc7a0af46649fd739e07b62367e60189aa4f2f8c5b458284245f2059c643e70fa6ccb5b746684916190f30cc031589bc7657096165275c7dc42c91d85ee528a7bc4a0a215c2749f6ee5274b9de432594ce2276320e250f772270e21da940bba28bb33ff4533324115d7fa4b&sermo=00b0269a-0327-4fab-84e5-f7278a76541d&putent_genus=0&srp_versio=1]
+2019-05-24 17:08:55.407 DEBUG com.dukascopy.api.impl.connect.AuthorizationClient - << [{"M2":"b3e8a272667b41af490e9f2f251d290fbc824438b121c470edf88a640e421870","srp_versio":"1"}]
+2019-05-24 17:08:55.407 INFO  com.dukascopy.api.impl.connect.AuthorizationClient - Auth step 2 response [ServerResponseObject [passwordServerResponse=Step2ServerResponse [serverEvidenceMessageM2=b3e8a272667b41af490e9f2f251d290fbc824438b121c470edf88a640e421870, srpProtocolVersion=1], ]]
+2019-05-24 17:08:55.409 INFO  com.dukascopy.api.impl.connect.AuthorizationClient - Auth step 3 request
+2019-05-24 17:08:55.409 DEBUG com.dukascopy.api.impl.connect.AuthorizationClient - >> [https://login.dukascopy.com/authorization-1/demo/auth?munus=srp_api&passus=3&sermo=00b0269a-0327-4fab-84e5-f7278a76541d&versio=318.4.68&willPing=true&occasus_content_vulgate=0&putent_genus=0&occasus=true&platform=DDS3_JFOREXSDK&srp_versio=1]
+2019-05-24 17:08:59.247 DEBUG com.dukascopy.api.impl.connect.AuthorizationClient - << [{"occasus":"rO0ABXNyABRqYXZhLnV0aWwuUHJvcGVydGllczkS0HpwNj6YAgABTAAIZGVmYXVsdHN0ABZMamF2\r\nYS91dGlsL1Byb3BlcnRpZX...","authApiURLs":["d-ja-usa-e-96-4-a.dukascopy.com:10443","d-ja-gva-101-135-154.dukascopy.com:10443","d-ja-sgn-04-b.dukascopy.com:10443","d-ja-jpn-102-100-c.dukascopy.com:10443","d-ja-hk-110-05.dukascopy.ch:10443","d-ja-msk-10.dukascopy.com:10443","d-ja-hk-111-4.dukascopy.ch:10443"],"srp_versio":"1"}]
+2019-05-24 17:08:59.259 INFO  com.dukascopy.api.impl.connect.AuthorizationClient - Auth step 3 response [ServerResponseObject [passwordServerResponse=Step3ServerResponse [serverResponse={"occasus":"rO0ABXNyABRqYXZhLnV0aWwuUHJvcGVydGllczkS0HpwNj6YAgABTAAIZGVmYXVsdHN0ABZMamF2\r\nYS91dGlsL1Byb3BlcnRpZX...","authApiURLs":["d-ja-usa-e-96-4-a.dukascopy.com:10443","d-ja-gva-101-135-154.dukascopy.com:10443","d-ja-sgn-04-b.dukascopy.com:10443","d-ja-jpn-102-100-c.dukascopy.com:10443","d-ja-hk-110-05.dukascopy.ch:10443","d-ja-msk-10.dukascopy.com:10443","d-ja-hk-111-4.dukascopy.ch:10443"],"srp_versio":"1"}], responseHeaderFields={Transfer-Encoding=[chunked], null=[HTTP/1.1 200], idle-session-ttl=[900000], CF-RAY=[4dbe20b40812a33c-HKG], Server=[cloudflare], Connection=[keep-alive], Client-Country=[HK], Pragma=[no-cache], Last-Modified=[Fri, 24 May 2019 09:08:56 GMT], Date=[Fri, 24 May 2019 09:08:56 GMT], Cache-Control=[no-cache, must-revalidate, no-store, max-age=0], Access-Control-Allow-Credentials=[true], Client-IP=[45.56.152.172], Vary=[Accept-Encoding], Set-Cookie=[__cfduid=d660832e4c2db570f3168bd5ed1c622f51558688935; expires=Sat, 23-May-20 09:08:55 GMT; path=/; domain=.dukascopy.com; HttpOnly], Expires=[Thu, 01 Jan 1970 00:00:00 GMT], Expect-CT=[max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"], Content-Type=[text/plain;charset=UTF-8]}]]
+2019-05-24 17:08:59.378 INFO  com.dukascopy.api.impl.connect.AuthorizationClient - Selecting the best server...
+2019-05-24 17:09:00.439 INFO  com.dukascopy.api.impl.connect.AuthorizationClient - The ping start time=2019-05-24 17:09:00:438
+2019-05-24 17:09:00.816 INFO  com.dukascopy.api.impl.connect.AuthorizationClient - The ping end time=2019-05-24 17:09:00:816, the ping processing time=[378]ms
+2019-05-24 17:09:00.816 DEBUG com.dukascopy.api.impl.connect.AuthorizationClient - Best api url [d-ja-hk-110-05.dukascopy.ch:10443] with time [98]
+2019-05-24 17:09:00.817 DEBUG com.dukascopy.api.impl.connect.TesterClientImpl - d-ja-hk-110-05.dukascopy.ch:10443@d5ad2c4b7c48fe1c8c938e88e666ca2fea9bf8eb6871656128f778fcdc219b77
+2019-05-24 17:09:00.824 INFO  com.dukascopy.dds2.greed.util.FilePathManager - WL info is unavailable. Use default App folder for Platform data:  C:\Users\lofgr\AppData\Local\JForex
+2019-05-24 17:09:01.075 WARN  com.dukascopy.charts.data.datacache.FeedDataProvider - JStore is disabled for the current user
+2019-05-24 17:09:01.094 DEBUG com.dukascopy.api.impl.connect.TesterClientImpl - UserAgent: {"clientType":"DDS3_JFOREXSDK","javaVersion":"1.8.0_211","jvmVersion":"25.211-b12","ip":"null","clientVersion":"318.4.68","osName":"Windows 10","userName":"null"}
+2019-05-24 17:09:04.286 INFO  com.dukascopy.dds2.greed.connection.GreedClientAuthorizationProvider - !!!:Thread[(NettyTransportClient-0) ClientConnector,6,main]
+2019-05-24 17:09:04.288 INFO  com.dukascopy.dds4.transport.client.netty.ClientConnector - Authorize task in queue, server address [d-ja-hk-110-05.dukascopy.ch/13.75.115.155:10443], transport name [NettyTransportClient-0]
+2019-05-24 17:09:04.290 DEBUG com.dukascopy.api.impl.connect.TesterClientImpl - Authorized
+2019-05-24 17:09:04.296 INFO  com.dukascopy.api.instrument.subscribe.InstrumentManager - InstrumentManager created.
+2019-05-24 17:09:04.646 WARN  com.dukascopy.api.impl.connect.WLabelData - White Label Image is not received
+2019-05-24 17:09:04.646 INFO  jforex.tester.client.gui.TesterMainGUIMode - Connected
+2019-05-24 17:09:04.653 INFO  jforex.tester.client.gui.TesterClientRunner - from: 2017/01/16 00:00:00 to: 2017/01/17 23:00:00
+2019-05-24 17:09:04.653 INFO  jforex.tester.client.gui.TesterClientRunner - Subscribing instruments...
+2019-05-24 17:09:04.656 INFO  jforex.tester.client.gui.TesterClientRunner - Downloading data
+2019-05-24 17:09:04.666 INFO  com.dukascopy.charts.data.datacache.metadata.FeedMetadataManager - Loading first times for [EUR/USD]...
+2019-05-24 17:09:05.460 INFO  com.dukascopy.charts.data.datacache.metadata.FeedMetadataManager - First times loaded {EUR/USD={Ticks=1052082000914, 1 Min=1052082000000, Hourly=1052082000000, Daily=99792000000}}
+2019-05-24 17:09:05.490 INFO  jforex.tester.client.gui.TesterClientRunner - Starting strategy
+2019-05-24 17:09:06.299 INFO  jforex.tester.client.gui.TesterMainGUIMode - Strategy started: 0
+2019-05-24 17:09:06.301 INFO  jforex.tester.client.gui.TesterClientRunner - Getting prices before start time
+2019-05-24 17:09:07.293 INFO  jforex.tester.client.gui.TesterClientRunner - Creating data loading threads
+2019-05-24 17:09:07.296 INFO  jforex.tester.client.gui.TesterClientRunner - Getting prices before start time
+2019-05-24 17:09:07.346 WARN  com.dukascopy.api.impl.connect.WLabelData - White Label Image is not received
+2019-05-24 17:09:07.372 INFO  jforex.tester.client.gui.TesterClientRunner - Filling in-progress candles
+2019-05-24 17:09:07.379 INFO  jforex.tester.client.gui.TesterClientRunner - Executing onStart
+2019-05-24 17:09:07.384 INFO  jforex.tester.client.gui.TesterClientRunner - Running
+2019-05-24 17:09:14.045 INFO  jforex.tester.client.gui.TesterClientRunner - Running, Mon 2017.01.16 00:30 Eq: 50,000.00 UoL: .00%
+2019-05-24 17:09:14.222 INFO  jforex.tester.client.gui.TesterClientRunner - Running, Mon 2017.01.16 01:00 Eq: 50,000.00 UoL: .00%
+2019-05-24 17:09:14.380 INFO  jforex.tester.client.gui.TesterClientRunner - Running, Mon 2017.01.16 01:30 Eq: 50,000.00 UoL: .00%
+2019-05-24 17:09:14.515 INFO  jforex.tester.client.gui.TesterClientRunner - Running, Mon 2017.01.16 02:00 Eq: 50,000.00 UoL: .00%
+2019-05-24 17:09:14.635 INFO  jforex.tester.client.gui.TesterClientRunner - Running, Mon 2017.01.16 02:30 Eq: 50,000.00 UoL: .00%
+2019-05-24 17:09:14.732 INFO  jforex.tester.client.gui.TesterClientRunner - Running, Mon 2017.01.16 03:00 Eq: 50,000.00 UoL: .00%
+2019-05-24 17:09:14.813 INFO  jforex.tester.client.gui.TesterClientRunner - Running, Mon 2017.01.16 03:30 Eq: 50,000.00 UoL: .00%
+2019-05-24 17:09:14.890 INFO  jforex.tester.client.gui.TesterClientRunner - Running, Mon 2017.01.16 04:00 Eq: 50,000.00 UoL: .00%
+2019-05-24 17:09:14.940 INFO  jforex.tester.client.gui.TesterClientRunner - Running, Mon 2017.01.16 04:30 Eq: 50,000.00 UoL: .00%
+2019-05-24 17:09:15.014 INFO  jforex.tester.client.gui.TesterClientRunner - Running, Mon 2017.01.16 05:00 Eq: 50,000.00 UoL: .00%
+2019-05-24 17:09:15.130 INFO  jforex.tester.client.gui.TesterClientRunner - Running, Mon 2017.01.16 05:30 Eq: 50,000.00 UoL: .00%
+2019-05-24 17:09:15.211 INFO  jforex.tester.client.gui.TesterClientRunner - Running, Mon 2017.01.16 06:00 Eq: 50,000.00 UoL: .00%
+2019-05-24 17:09:15.299 INFO  jforex.tester.client.gui.TesterClientRunner - Running, Mon 2017.01.16 06:30 Eq: 50,000.00 UoL: .00%
+2019-05-24 17:09:15.373 INFO  jforex.tester.client.gui.TesterClientRunner - Running, Mon 2017.01.16 07:00 Eq: 50,000.00 UoL: .00%
+2019-05-24 17:09:15.491 INFO  jforex.tester.client.gui.TesterClientRunner - Running, Mon 2017.01.16 07:30 Eq: 50,000.00 UoL: .00%
+2019-05-24 17:09:15.603 INFO  jforex.tester.client.gui.TesterClientRunner - Running, Mon 2017.01.16 08:00 Eq: 50,000.00 UoL: .00%
+2019-05-24 17:09:15.816 INFO  jforex.tester.client.gui.TesterClientRunner - Running, Mon 2017.01.16 08:30 Eq: 49,999.86 UoL: .02%
+2019-05-24 17:09:15.954 INFO  jforex.tester.client.gui.TesterClientRunner - Running, Mon 2017.01.16 09:00 Eq: 50,001.24 UoL: .02%
+2019-05-24 17:09:16.060 INFO  jforex.tester.client.gui.TesterClientRunner - Running, Mon 2017.01.16 09:30 Eq: 50,000.40 UoL: .00%
+2019-05-24 17:09:16.164 INFO  jforex.tester.client.gui.TesterClientRunner - Running, Mon 2017.01.16 10:00 Eq: 50,000.40 UoL: .00%
+2019-05-24 17:09:16.260 INFO  jforex.tester.client.gui.TesterClientRunner - Running, Mon 2017.01.16 10:30 Eq: 50,000.40 UoL: .00%
+2019-05-24 17:09:16.333 INFO  jforex.tester.client.gui.TesterClientRunner - Running, Mon 2017.01.16 11:00 Eq: 50,000.40 UoL: .00%
+2019-05-24 17:09:16.409 INFO  jforex.tester.client.gui.TesterClientRunner - Running, Mon 2017.01.16 11:30 Eq: 50,000.40 UoL: .00%
+2019-05-24 17:09:16.503 INFO  jforex.tester.client.gui.TesterClientRunner - Running, Mon 2017.01.16 12:00 Eq: 50,000.40 UoL: .00%
+2019-05-24 17:09:16.576 INFO  jforex.tester.client.gui.TesterClientRunner - Running, Mon 2017.01.16 12:30 Eq: 50,000.40 UoL: .00%
+2019-05-24 17:09:16.657 INFO  jforex.tester.client.gui.TesterClientRunner - Running, Mon 2017.01.16 13:00 Eq: 50,000.40 UoL: .00%
+2019-05-24 17:09:16.732 INFO  jforex.tester.client.gui.TesterClientRunner - Running, Mon 2017.01.16 13:30 Eq: 50,000.40 UoL: .00%
+2019-05-24 17:09:16.805 INFO  jforex.tester.client.gui.TesterClientRunner - Running, Mon 2017.01.16 14:00 Eq: 50,000.40 UoL: .00%
+2019-05-24 17:09:16.879 INFO  jforex.tester.client.gui.TesterClientRunner - Running, Mon 2017.01.16 14:30 Eq: 50,000.40 UoL: .00%
+2019-05-24 17:09:16.983 INFO  jforex.tester.client.gui.TesterClientRunner - Running, Mon 2017.01.16 15:00 Eq: 50,000.40 UoL: .00%
+2019-05-24 17:09:17.053 INFO  jforex.tester.client.gui.TesterClientRunner - Running, Mon 2017.01.16 15:30 Eq: 50,000.40 UoL: .00%
+2019-05-24 17:09:17.118 INFO  jforex.tester.client.gui.TesterClientRunner - Running, Tue 2017.01.16 16:00 Eq: 50,000.40 UoL: .00%
+2019-05-24 17:09:17.195 INFO  jforex.tester.client.gui.TesterClientRunner - Running, Tue 2017.01.16 16:30 Eq: 50,000.40 UoL: .00%
+2019-05-24 17:09:17.244 INFO  jforex.tester.client.gui.TesterClientRunner - Running, Tue 2017.01.16 17:00 Eq: 50,000.40 UoL: .00%
+2019-05-24 17:09:17.288 INFO  jforex.tester.client.gui.TesterClientRunner - Running, Tue 2017.01.16 17:30 Eq: 50,000.40 UoL: .00%
+2019-05-24 17:09:17.322 INFO  jforex.tester.client.gui.TesterClientRunner - Running, Tue 2017.01.16 18:00 Eq: 50,000.40 UoL: .00%
+2019-05-24 17:09:17.344 INFO  jforex.tester.client.gui.TesterClientRunner - Running, Tue 2017.01.16 18:30 Eq: 50,000.40 UoL: .00%
+2019-05-24 17:09:17.380 INFO  jforex.tester.client.gui.TesterClientRunner - Running, Tue 2017.01.16 19:00 Eq: 50,000.40 UoL: .00%
+2019-05-24 17:09:17.422 INFO  jforex.tester.client.gui.TesterClientRunner - Running, Tue 2017.01.16 19:30 Eq: 50,000.40 UoL: .00%
+2019-05-24 17:09:17.468 INFO  jforex.tester.client.gui.TesterClientRunner - Running, Tue 2017.01.16 20:00 Eq: 50,000.40 UoL: .00%
+2019-05-24 17:09:17.527 INFO  jforex.tester.client.gui.TesterClientRunner - Running, Tue 2017.01.16 20:30 Eq: 50,000.40 UoL: .00%
+2019-05-24 17:09:17.577 INFO  jforex.tester.client.gui.TesterClientRunner - Running, Tue 2017.01.16 21:00 Eq: 50,000.40 UoL: .00%
+2019-05-24 17:09:17.651 INFO  jforex.tester.client.gui.TesterClientRunner - Running, Tue 2017.01.16 21:30 Eq: 50,000.40 UoL: .00%
+2019-05-24 17:09:17.761 INFO  jforex.tester.client.gui.TesterClientRunner - Running, Tue 2017.01.16 22:00 Eq: 50,000.40 UoL: .00%
+2019-05-24 17:09:17.774 INFO  jforex.tester.client.gui.TesterClientRunner - Running, Tue 2017.01.16 22:30 Eq: 50,000.40 UoL: .00%
+2019-05-24 17:09:17.797 INFO  jforex.tester.client.gui.TesterClientRunner - Running, Tue 2017.01.16 23:00 Eq: 50,000.40 UoL: .00%
+2019-05-24 17:09:17.834 INFO  jforex.tester.client.gui.TesterClientRunner - Running, Tue 2017.01.16 23:30 Eq: 50,000.40 UoL: .00%
+2019-05-24 17:09:17.881 INFO  jforex.tester.client.gui.TesterClientRunner - Running, Tue 2017.01.17 00:00 Eq: 50,000.40 UoL: .00%
+2019-05-24 17:09:17.943 INFO  jforex.tester.client.gui.TesterClientRunner - Running, Tue 2017.01.17 00:30 Eq: 50,000.40 UoL: .00%
+2019-05-24 17:09:17.990 INFO  jforex.tester.client.gui.TesterClientRunner - Running, Tue 2017.01.17 01:00 Eq: 50,000.40 UoL: .00%
+2019-05-24 17:09:18.052 INFO  jforex.tester.client.gui.TesterClientRunner - Running, Tue 2017.01.17 01:30 Eq: 50,000.40 UoL: .00%
+2019-05-24 17:09:18.116 INFO  jforex.tester.client.gui.TesterClientRunner - Running, Tue 2017.01.17 02:00 Eq: 50,000.40 UoL: .00%
+2019-05-24 17:09:18.164 INFO  jforex.tester.client.gui.TesterClientRunner - Running, Tue 2017.01.17 02:30 Eq: 50,000.40 UoL: .00%
+2019-05-24 17:09:18.229 INFO  jforex.tester.client.gui.TesterClientRunner - Running, Tue 2017.01.17 03:00 Eq: 50,000.40 UoL: .00%
+2019-05-24 17:09:18.286 INFO  jforex.tester.client.gui.TesterClientRunner - Running, Tue 2017.01.17 03:30 Eq: 50,000.40 UoL: .00%
+2019-05-24 17:09:18.345 INFO  jforex.tester.client.gui.TesterClientRunner - Running, Tue 2017.01.17 04:00 Eq: 50,000.40 UoL: .00%
+2019-05-24 17:09:18.413 INFO  jforex.tester.client.gui.TesterClientRunner - Running, Tue 2017.01.17 04:30 Eq: 50,000.40 UoL: .00%
+2019-05-24 17:09:18.482 INFO  jforex.tester.client.gui.TesterClientRunner - Running, Tue 2017.01.17 05:00 Eq: 50,000.40 UoL: .00%
+2019-05-24 17:09:18.566 INFO  jforex.tester.client.gui.TesterClientRunner - Running, Tue 2017.01.17 05:30 Eq: 50,000.40 UoL: .00%
+2019-05-24 17:09:18.638 INFO  jforex.tester.client.gui.TesterClientRunner - Running, Tue 2017.01.17 06:00 Eq: 50,000.40 UoL: .00%
+2019-05-24 17:09:18.718 INFO  jforex.tester.client.gui.TesterClientRunner - Running, Tue 2017.01.17 06:30 Eq: 50,000.40 UoL: .00%
+2019-05-24 17:09:18.776 INFO  jforex.tester.client.gui.TesterClientRunner - Running, Tue 2017.01.17 07:00 Eq: 50,000.40 UoL: .00%
+2019-05-24 17:09:18.871 INFO  jforex.tester.client.gui.TesterClientRunner - Running, Tue 2017.01.17 07:30 Eq: 50,000.40 UoL: .00%
+2019-05-24 17:09:18.956 INFO  jforex.tester.client.gui.TesterClientRunner - Running, Tue 2017.01.17 08:00 Eq: 50,000.40 UoL: .00%
+2019-05-24 17:09:19.077 INFO  jforex.tester.client.gui.TesterClientRunner - Running, Tue 2017.01.17 08:30 Eq: 50,000.40 UoL: .00%
+2019-05-24 17:09:19.166 INFO  jforex.tester.client.gui.TesterClientRunner - Running, Tue 2017.01.17 09:00 Eq: 50,000.40 UoL: .00%
+2019-05-24 17:09:19.298 INFO  jforex.tester.client.gui.TesterClientRunner - Running, Tue 2017.01.17 09:30 Eq: 50,000.40 UoL: .00%
+2019-05-24 17:09:19.432 INFO  jforex.tester.client.gui.TesterClientRunner - Running, Tue 2017.01.17 10:00 Eq: 50,000.40 UoL: .00%
+2019-05-24 17:09:19.526 INFO  jforex.tester.client.gui.TesterClientRunner - Running, Tue 2017.01.17 10:30 Eq: 50,000.40 UoL: .00%
+2019-05-24 17:09:19.609 INFO  jforex.tester.client.gui.TesterClientRunner - Running, Tue 2017.01.17 11:00 Eq: 50,000.40 UoL: .00%
+2019-05-24 17:09:19.727 INFO  jforex.tester.client.gui.TesterClientRunner - Running, Tue 2017.01.17 11:30 Eq: 50,000.40 UoL: .00%
+2019-05-24 17:09:19.914 INFO  jforex.tester.client.gui.TesterClientRunner - Running, Tue 2017.01.17 12:00 Eq: 49,999.34 UoL: .00%
+2019-05-24 17:09:20.124 INFO  jforex.tester.client.gui.TesterClientRunner - Running, Tue 2017.01.17 12:30 Eq: 49,998.07 UoL: .02%
+2019-05-24 17:09:20.304 INFO  jforex.tester.client.gui.TesterClientRunner - Running, Tue 2017.01.17 13:00 Eq: 49,997.17 UoL: .00%
+2019-05-24 17:09:20.447 INFO  jforex.tester.client.gui.TesterClientRunner - Running, Tue 2017.01.17 13:30 Eq: 49,997.17 UoL: .00%
+2019-05-24 17:09:20.597 INFO  jforex.tester.client.gui.TesterClientRunner - Running, Tue 2017.01.17 14:00 Eq: 49,997.17 UoL: .00%
+2019-05-24 17:09:20.753 INFO  jforex.tester.client.gui.TesterClientRunner - Running, Tue 2017.01.17 14:30 Eq: 49,997.17 UoL: .00%
+2019-05-24 17:09:20.938 INFO  jforex.tester.client.gui.TesterClientRunner - Running, Tue 2017.01.17 15:00 Eq: 49,997.17 UoL: .00%
+2019-05-24 17:09:21.084 INFO  jforex.tester.client.gui.TesterClientRunner - Running, Tue 2017.01.17 15:30 Eq: 49,997.17 UoL: .00%
+2019-05-24 17:09:21.264 INFO  jforex.tester.client.gui.TesterClientRunner - Running, Wed 2017.01.17 16:00 Eq: 49,997.17 UoL: .00%
+2019-05-24 17:09:21.382 INFO  jforex.tester.client.gui.TesterClientRunner - Running, Wed 2017.01.17 16:30 Eq: 49,997.17 UoL: .00%
+2019-05-24 17:09:21.486 INFO  jforex.tester.client.gui.TesterClientRunner - Running, Wed 2017.01.17 17:00 Eq: 49,997.17 UoL: .00%
+2019-05-24 17:09:21.557 INFO  jforex.tester.client.gui.TesterClientRunner - Running, Wed 2017.01.17 17:30 Eq: 49,997.17 UoL: .00%
+2019-05-24 17:09:21.616 INFO  jforex.tester.client.gui.TesterClientRunner - Running, Wed 2017.01.17 18:00 Eq: 49,997.17 UoL: .00%
+2019-05-24 17:09:21.668 INFO  jforex.tester.client.gui.TesterClientRunner - Running, Wed 2017.01.17 18:30 Eq: 49,997.17 UoL: .00%
+2019-05-24 17:09:21.727 INFO  jforex.tester.client.gui.TesterClientRunner - Running, Wed 2017.01.17 19:00 Eq: 49,997.17 UoL: .00%
+2019-05-24 17:09:21.794 INFO  jforex.tester.client.gui.TesterClientRunner - Running, Wed 2017.01.17 19:30 Eq: 49,997.17 UoL: .00%
+2019-05-24 17:09:21.878 INFO  jforex.tester.client.gui.TesterClientRunner - Running, Wed 2017.01.17 20:00 Eq: 49,997.17 UoL: .00%
+2019-05-24 17:09:21.945 INFO  jforex.tester.client.gui.TesterClientRunner - Running, Wed 2017.01.17 20:30 Eq: 49,997.17 UoL: .00%
+2019-05-24 17:09:21.985 INFO  jforex.tester.client.gui.TesterClientRunner - Running, Wed 2017.01.17 21:00 Eq: 49,997.17 UoL: .00%
+2019-05-24 17:09:22.007 INFO  jforex.tester.client.gui.TesterClientRunner - Running, Wed 2017.01.17 21:30 Eq: 49,997.17 UoL: .00%
+2019-05-24 17:09:22.038 INFO  jforex.tester.client.gui.TesterClientRunner - Running, Wed 2017.01.17 22:00 Eq: 49,997.17 UoL: .00%
+2019-05-24 17:09:22.052 INFO  jforex.tester.client.gui.TesterClientRunner - Running, Wed 2017.01.17 22:30 Eq: 49,997.17 UoL: .00%
+2019-05-24 17:09:22.080 INFO  jforex.tester.client.gui.TesterClientRunner - Executing onStop
+2019-05-24 17:09:22.094 INFO  jforex.tester.client.gui.TesterMainGUIMode - Strategy stopped: 0
+2019-05-24 17:09:22.096 ERROR jforex.tester.client.gui.TesterMainGUIMode - C:\report.html (Access is denied)
+java.io.FileNotFoundException: C:\report.html (Access is denied)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162)
+	at com.dukascopy.dds2.greed.agent.strategy.tester.start.TesterStrategies.createReport(TesterStrategies.java:235)
+	at com.dukascopy.api.impl.connect.TesterClientImpl.createReport(TesterClientImpl.java:1028)
+	at jforex.tester.client.gui.TesterMainGUIMode.createReport(TesterMainGUIMode.java:120)
+	at jforex.tester.client.gui.TesterMainGUIMode.access$900(TesterMainGUIMode.java:45)
+	at jforex.tester.client.gui.TesterMainGUIMode$2.onStop(TesterMainGUIMode.java:102)
+	at com.dukascopy.api.impl.connect.TesterClientImpl$4.onStop(TesterClientImpl.java:616)
+	at com.dukascopy.dds2.greed.agent.strategy.tester.start.TesterLoadingProgressListener.loadingFinished(TesterLoadingProgressListener.java:78)
+	at com.dukascopy.dds2.greed.agent.strategy.tester.StrategyTesterRunner.run(StrategyTesterRunner.java:426)
+	at java.lang.Thread.run(Thread.java:748)
+2019-05-24 17:09:37.889 INFO  jforex.tester.client.gui.TesterClientRunner - Connecting...
+2019-05-24 17:09:37.889 INFO  jforex.tester.client.gui.TesterClientRunner - from: 2017/01/16 00:00:00 to: 2017/01/17 23:00:00
+2019-05-24 17:09:37.889 INFO  jforex.tester.client.gui.TesterClientRunner - Subscribing instruments...
+2019-05-24 17:09:37.889 INFO  jforex.tester.client.gui.TesterClientRunner - Downloading data
+2019-05-24 17:09:37.898 INFO  jforex.tester.client.gui.TesterClientRunner - Starting strategy
