@@ -231,7 +231,6 @@ public class DataGen01 implements IStrategy, IFeedListener {
 
     @Configurable("Filter")
     public Filter filter = Filter.ALL_FLATS;
-
     @Configurable("Base Stop loss in pips")
     public int baseStopLossPips = 5;
     @Configurable("Step Stop loss in pips")

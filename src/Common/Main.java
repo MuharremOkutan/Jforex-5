@@ -27,19 +27,18 @@
  * OF LIABILITY, ARISING OUT OF THE USE OF OR INABILITY TO USE THIS SOFTWARE,
  * EVEN IF DUKASCOPY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
  */
-package singlejartest;
+package Common;
 
+import JFDataServer.JFDataServer;
 import com.dukascopy.api.Instrument;
 import com.dukascopy.api.system.ClientFactory;
 import com.dukascopy.api.system.IClient;
 import com.dukascopy.api.system.ISystemListener;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-//import zeromq.ZeroMQClient;
 
 import java.util.HashSet;
 import java.util.Set;
-
 
 
 /**
@@ -73,7 +72,7 @@ public class Main {
 
         LOGGER.info("Starting strategy");
 //        client.startStrategy(new MA_Play());
-//        client.startStrategy(new ZeroMQClient());
+        client.startStrategy(new JFDataServer());
         //now it's running
     }
 
